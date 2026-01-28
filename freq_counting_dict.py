@@ -1,20 +1,30 @@
-my_array = [5,2,3,8,8,1]
+## Frequency of each element appearing in the list
 
-freq = {}
 
-test = {}
-test1 = {}
-test[5] = 1
-print(test)
-for x in my_array:
-  freq[x] = freq.get(x,0) + 1
+my_list = [1,2,2,3,3,4,4,4,5]
+
+
+
+
+def Freq_counter(the_list):
+  freq = {}
   
-for x in my_array:
-  if x in test1:
-    test1[x] += 1
-  else:
-    test1[x] = 1
+  for i in the_list:
+    
+    freq[i] = freq.get(i,0) + 1
+    
+  return freq
   
-print(freq)
-print(test1)
   
+def Number_1Freq(the_list, freq):
+  result = []
+  for i in the_list:
+    if freq[i] == 1:
+      result.append(i)
+  return result
+
+
+print(Freq_counter(my_list))
+
+the_freq = Freq_counter(my_list)
+print(Number_1Freq(my_list, the_freq))
