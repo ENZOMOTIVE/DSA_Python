@@ -1,11 +1,16 @@
 # DSA Python
 
-`DSA_Python` contains Python project files and scripts. Use this README as the setup and maintenance guide for the repository.
+## Project Tags
+
+- No requested category tag currently applies.
+
+## Overview
+
+DSA Python is a Python practice repository for data structures, searching, sorting, and algorithm fundamentals.
 
 ## Features
 
-- Python scripts/modules for the project workflow
-- Data-structure and algorithm practice examples
+- Data structure and algorithm examples
 
 ## Tech Stack
 
@@ -13,54 +18,54 @@
 
 ## Project Structure
 
-- `.gitattributes` - project file
-- `README.md` - project documentation
-- `Searching` - project directory
-- `Sorting` - project directory
-- `freq_counting_dict.py` - project file
-- `linked_list.py` - project file
-- `ll_craetion.py` - project file
-- `stack_ll.py` - project file
+- `.gitattributes` - project file or directory
+- `Searching` - project file or directory
+- `Sorting` - project file or directory
+- `freq_counting_dict.py` - project file or directory
+- `linked_list.py` - project file or directory
+- `ll_craetion.py` - project file or directory
+- `stack_ll.py` - project file or directory
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Python 3.10+
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/DSA_Python.git
 cd DSA_Python
 ```
 
-Create a virtual environment before running Python scripts, then install any project requirements if a requirements file is added.
+For Python scripts, create a virtual environment first, then run the relevant script from the repository root.
 
-## Available Commands
+## Commands
 
-- No package scripts were detected in the current repository contents.
+- No automated command set is declared yet; document commands here as tooling is added.
 
 ## Configuration
 
-- No required environment variables are documented yet. Add them here when the project needs configuration.
+- No required runtime configuration is documented yet. Add environment variables here when the project needs them.
 
 ## Testing and Quality
 
-- Automated tests are not documented yet. Add test commands here when test coverage is introduced.
+- No automated test workflow is declared yet; add tests and document the command here as the project matures.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
